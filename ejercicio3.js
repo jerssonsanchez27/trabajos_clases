@@ -1,6 +1,6 @@
 class CuentaBancaria {
     constructor (inicial){
-        let saldo = inicial;
+        this.inicial = inicial;
     
      this.getSaldo = function () {
         return saldo;
